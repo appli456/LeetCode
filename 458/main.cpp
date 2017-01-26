@@ -3,23 +3,7 @@
 
 #include "stdafx.h"
 #include <iostream>
-#include <cmath>
-class Solution {
-public:
-	int poorPigs(int buckets, int minutesToDie, int minutesToTest) {
-		float rate = minutesToTest / minutesToDie + 1;
-		int pigs = 0;
-
-		while (pow(rate, pigs) < buckets)
-		{
-			pigs++;
-		}
-
-		return pigs;
-
-	}
-};
-
+#include "Solution.h"
 int main()
 {
 	Solution* s = new Solution();
