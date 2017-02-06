@@ -21,7 +21,6 @@ public:
 				{
 					result = "-" + result;
 				}
-				
 				result = static_cast<char>(toupper(S[i])) + result;
 			}
 		}
