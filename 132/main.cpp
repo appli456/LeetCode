@@ -13,7 +13,7 @@ using std::string;
 int main()
 {
 	Solution *s = new Solution();
-
+	cout << s->minCut("fifgbeajcacehiicccfecbfhhgfiiecdcjjffbghdidbhbdbfbfjccgbbdcjheccfbhafehieabbdfeigbiaggchaeghaijfbjhi") << endl;
 	system("pause");
     return 0;
 }
