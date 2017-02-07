@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include "Solution.h"
 using namespace std;
 int det(int x1, int y1, int x2, int y2)

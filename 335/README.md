@@ -1,4 +1,4 @@
-## 335. Self Crossing 
+ï»¿## 335. Self Crossing 
 
  You are given an array x of n positive numbers. You start at point (0,0) and moves x[0] metres to the north, then x[1] metres to the west, x[2] metres to the south, x[3] metres to the east and so on. In other words, after each move your direction changes counter-clockwise.
 
@@ -9,10 +9,10 @@ Example 1:
 
 Given x = 
 [2, 1, 1, 2],  
-©°©¤©¤©¤©´  
-©¦   ©¦
-©¸©¤©¤©¤©à©¤©¤>  
-    ©¦
+â”Œâ”€â”€â”€â”  
+â”‚   â”‚
+â””â”€â”€â”€â”¼â”€â”€>  
+    â”‚
 
 Return true (self crossing)
 ```
@@ -22,11 +22,11 @@ Example 2:
 
 Given x = 
 [1, 2, 3, 4],
-©°©¤©¤©¤©¤©¤©¤©´
-©¦      ©¦
-©¦
-©¦
-©¸©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤©¤>
+â”Œâ”€â”€â”€â”€â”€â”€â”
+â”‚      â”‚
+â”‚
+â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€>
 
 Return false (not self crossing)
 ```
@@ -35,9 +35,9 @@ Example 3:
 
 Given x = 
 [1, 1, 1, 1],
-©°©¤©¤©¤©´
-©¦   ©¦
-©¸©¤©¤©¤©à>
+â”Œâ”€â”€â”€â”
+â”‚   â”‚
+â””â”€â”€â”€â”¼>
 
 Return true (self crossing)
 ```

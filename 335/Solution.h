@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 
 #ifndef __335__SOLUTION_H__
 #define __335__SOLUTION_H__
@@ -50,7 +50,7 @@ public:
 
 	bool if_cross(Line *l)
 	{
-		// Æ½ÐÐÏòÁ¿²»¹Ü
+		// å¹³è¡Œå‘é‡ä¸ç®¡
 		if (if_parallel(this, l) && !if_collinear(this, l))
 		{
 			return false;
@@ -127,10 +127,10 @@ private:
 	}
 	static bool if_collinear(Line *a, Line *b)
 	{
-		// Ê×Î²ÏàÁ¬¹¹ÔìÐÂÏß¶Î£¬Èç¹ûºÍ¾ÉÏß¶ÎÆ½ÐÐ£¬ÔòËµÃ÷Á½ÌõÏß¶ÎÎ»ÓÚÍ¬Ò»Ö±ÏßÉÏ
-		Line *temp = new Line(a->end, b->start);
-		// ÈýÏßÆ½ÐÐ£¬¹²Ïß
-		return if_parallel(temp, a) && if_parallel(temp, b) && if_parallel(a, b);
+		// é¦–å°¾ç›¸è¿žæž„é€ æ–°çº¿æ®µï¼Œå¦‚æžœå’Œæ—§çº¿æ®µå¹³è¡Œï¼Œåˆ™è¯´æ˜Žä¸¤æ¡çº¿æ®µä½äºŽåŒä¸€ç›´çº¿ä¸Š
+		Line *temp = new Line(a->start, b->end);
+		// ä¸‰çº¿å¹³è¡Œï¼Œå…±çº¿
+		return if_parallel(temp, a);
 	}
 };
 
