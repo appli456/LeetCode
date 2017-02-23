@@ -13,7 +13,7 @@
 */
 #include <vector>
 #include <stack>
-#include "TreeNode.h"
+#include "../lib/TreeNode.h"
 using std::vector;
 using std::stack;
 class Solution {

@@ -4,7 +4,7 @@
 #include <vector>
 #include <string>
 #include <sstream>
-#include "TreeNode.h"
+#include "../lib/TreeNode.h"
 using std::vector;
 using std::string;
 /**
