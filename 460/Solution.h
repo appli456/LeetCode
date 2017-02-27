@@ -26,6 +26,8 @@ public:
 		{
 			return -1;
 		}
+		// unsigned int frequency();
+
 		freq_map[value_map[key].second].erase(iterator_map[key]);
 		value_map[key].second++;
 		freq_map[value_map[key].second].push_back(key);
