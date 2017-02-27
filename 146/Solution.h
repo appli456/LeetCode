@@ -34,7 +34,24 @@ public:
 			return;
 		}
 
+		auto it = cache.find(key);
+		if (it != cache.end())
+		{
+			renew_used(it);
+			
+		}
+		else 
+		{
 
+			int size = cache.size();
+			if (size >= capacity)
+			{
+				cache.erase(used.back());
+				used.pop_back();
+			}
+			used.push_front(key);
+		}
+		cache[key] = { value, used.begin() };
 	}
 
 private:
