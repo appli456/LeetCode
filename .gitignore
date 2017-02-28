@@ -9,3 +9,9 @@ Release/
 ipch/
 *.VC.db
 *.VC.opendb
+
+bin/
+CMakeFiles/
+*.cmake
+CMakeCache.txt
+Makefile
