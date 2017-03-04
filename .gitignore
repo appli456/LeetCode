@@ -9,6 +9,8 @@ Release/
 ipch/
 *.VC.db
 *.VC.opendb
+*.vcxproj.user
+*.vcxproj.filters
 
 bin/
 CMakeFiles/
