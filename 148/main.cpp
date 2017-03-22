@@ -44,12 +44,19 @@ ListNode* create(initializer_list<int> list)
 	return head;
 }
 
-
+union A
+{
+	float a;
+	int c;
+};
 int main()
 {
 	Solution *s = new Solution();
 	print(s->sortList(create({ 2, 3, 5, 1 })));
 	print(s->sortList(create({})));
+	A a;
+	a.a = -7.25;
+	cout << hex << a.c << endl;
 	system("pause");
 	return 0;
 }
