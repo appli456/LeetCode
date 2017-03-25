@@ -72,24 +72,6 @@ public:
 				this->start.x - this->end.x,
 				this->start.y - this->end.y);
 
-		//if (n1 * n2 < 0 && n3 * n4 < 0)
-		//{
-		//	flag = 1;
-		//	return true;
-		//} 
-		//else if (n1 == 0 && online(&this->start, &l->start, &l->end))
-		//{
-		//	flag = 2;
-		//	return true;
-		//}
-		//else if (n2 == 0 && online(&this->end, &l->start, &l->end)) { flag = 3; return true; }
-		//else if (n3 == 0 && online(&l->start, &this->start, &this->end)) { flag = 4; return true; }
-		//else if (n4 == 0 && online(&l->end, &this->start, &this->end))
-		//{
-		//	flag = 5;
-		//	return true;
-		//}
-		//return false;
 		return (n1 * n2 < 0 && n3 * n4 < 0) ||
 			(n1 == 0 && online(&this->start, &l->start, &l->end)) ||
 			(n2 == 0 && online(&this->end, &l->start, &l->end)) ||
