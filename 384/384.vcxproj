@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2A723BBD-5B54-433D-B5E6-D3D862882AAD}</ProjectGuid>
+    <ProjectGuid>{941A398D-48C0-4040-8C2D-6220923D67A3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My9</RootNamespace>
+    <RootNamespace>My384</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -145,6 +145,7 @@
     <Text Include="ReadMe.md" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Solution.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
