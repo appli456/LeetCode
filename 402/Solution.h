@@ -10,6 +10,10 @@ public:
 		{
 			return "0";
 		}
+		if(k == 0)
+		{
+			return num;
+		}
 		string result(num.length() - k, '0');
 		size_t j = 0;
 		for(int i = 0; i < num.length() && j < result.length(); ++i)
@@ -17,7 +21,7 @@ public:
 			if (k > 0) {
 				int top = 0;
 				int min_index = i;
-				while (top + i < num.length() && top < k + 1)
+				while (top + i < num.length() && top < k + 1 && num[min_index] != '0')
 				{
 					if (num[top + i] < num[min_index])
 					{
@@ -37,12 +41,8 @@ public:
 			}
 		}
 		j = 0;
-		while(j < result.length())
+		while(result[j] == '0')
 		{
-			if(result[j] != '0')
-			{
-				break;
-			}
 			++j;
 		}
 
